@@ -1,0 +1,52 @@
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    background: #fdf3e7;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.line-through {
+    text-decoration: line-through;
+    color: #8d6e63;
+}
+
+.buttons {
+    display: flex;
+    gap: 6px;
+}
+
+.btn {
+    border: none;
+    border-radius: 6px;
+    color: rgba(229, 229, 229, 0.998);
+    padding: 4px 10px;
+    cursor: pointer;
+}
+
+.edit {
+    background-color: #6d4c41;
+}
+
+.save {
+    background-color: #8d6e63;
+}
+
+.cancel {
+    background-color: #a1887f;
+}
+
+.delete {
+    background-color: #d84315;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}

@@ -1,0 +1,28 @@
+.form-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #8d6e63;
+    border-radius: 8px;
+}
+
+.btn {
+    border: none;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.add {
+    background-color: #a1887f;
+}
+
+.add:hover {
+    background-color: #8d6e63;
+}

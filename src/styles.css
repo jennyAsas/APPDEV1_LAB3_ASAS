@@ -1,0 +1,37 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color:#d2b48c;
+    margin: 20px;
+}
+
+.card {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000000;
+    margin-bottom: 20px;
+}
+
+.brown-theme {
+    background-color: #d2b48c;
+    color: #3e2723;
+}
+
+.nav-bar {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.nav-bar button {
+    background-color: #8b4513;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 12px;
+}
+
+.nav-bar button:hover {
+    background-color: #a0522d;
+}
